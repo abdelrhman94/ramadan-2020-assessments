@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
           `votes_downs_${vidInfo._id}`
         );
         const scoreVoteElm = document.getElementById(
-          `score_vote${vidInfo._id}`
+          `score_vote_${vidInfo._id}`
         );
 
         voteUpsElm.addEventListener('click', (e) => {
